@@ -1,0 +1,10 @@
+# ------- Geany
+
+OPEN GEANY	:	geany &
+GO TO GEANY	:	wmctrl -a geany
+QUIT GEANY	:	wmctrl -c geany
+RECENT GEANY FILE:	xdotool key alt+f f
+LATEX HIGHLIGHTING:	xdotool key alt+d t m Down Down Down Down Return
+CONFIG HIGHLIGHTING:	xdotool key alt+d t i Down Return
+PREFORMATTED TEXT:	xdotool key Control+h && sleep .2 && xdotool key ^ && xdotool key Tab space space space space alt+l && sleep .5 && wmctrl -a "Replace" && xdotool key alt+c
+

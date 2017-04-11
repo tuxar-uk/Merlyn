@@ -1,0 +1,419 @@
+<s> ADDRESS FIELD </s>
+<s> ADDRESS </s>
+<s> CLOSE TAB </s>
+<s> CLOSE WINDOW </s>
+<s> DOT COM </s>
+<s> DOT CO UCK </s>
+<s> DOT NET </s>
+<s> DOT ORG </s>
+<s> FIND ON PAGE </s>
+<s> FIREFOX PREFERENCES </s>
+<s> FULL SCREEN </s>
+<s> GO BACK </s>
+<s> GO FORWARD </s>
+<s> GO TO BROWSER </s>
+<s> GO TO FIREFOX </s>
+<s> NEW FILE </s>
+<s> NEW TAB </s>
+<s> NEW WINDOW </s>
+<s> NEXT TAB </s>
+<s> OPEN BROWSER </s>
+<s> OPEN FIREFOX </s>
+<s> OPEN GOOGLE CHROME </s>
+<s> PREVIOUS TAB </s>
+<s> QUIT BROWSER </s>
+<s> QUIT FIREFOX </s>
+<s> REFRESH PAGE </s>
+<s> RESTORE TAB </s>
+<s> SEARCH FIELD </s>
+<s> TAB EIGHT </s>
+<s> TAB FIVE </s>
+<s> TAB FOUR </s>
+<s> TAB NINE </s>
+<s> TAB ONE </s>
+<s> TAB SEVEN </s>
+<s> TAB SIX </s>
+<s> TAB THREE </s>
+<s> TAB TWO </s>
+<s> MUSIC </s>
+<s> MUSIC NEXT </s>
+<s> MUSIC PAUSE </s>
+<s> MUSIC PLAY </s>
+<s> MUSIC PREV </s>
+<s> MUSIC SHOW </s>
+<s> MUSIC SILENCE </s>
+<s> OPEN RHYTHMBOX </s>
+<s> GO TO RHYTHMBOX </s>
+<s> QUIT RHYTHMBOX </s>
+<s> SEARCH MUSIC </s>
+<s> CALCULATOR </s>
+<s> QUIT CALCULATOR </s>
+<s> ADD </s>
+<s> DIVIDE BY </s>
+<s> MULTIPLY BY </s>
+<s> NUMBER </s>
+<s> SUBTRACT </s>
+<s> TIMES </s>
+<s> OPEN V L C </s>
+<s> GO TO V L C </s>
+<s> QUIT V L C </s>
+<s> PLAY FASTER </s>
+<s> NORMAL SPEED </s>
+<s> HALF SIZE </s>
+<s> FULL SIZE </s>
+<s> OPEN VOLUME CONTROL </s>
+<s> GO TO VOLUME CONTROL </s>
+<s> LOWER VOLUME </s>
+<s> MUTE SOUND </s>
+<s> NEXT TRACK </s>
+<s> PAUSE PLAY </s>
+<s> PLAY PAUSE </s>
+<s> PREVIOUS TRACK </s>
+<s> RAISE VOLUME </s>
+<s> RESTART TRACK </s>
+<s> UN MUTE SOUND </s>
+<s> BACKGAMMON </s>
+<s> CHECKERS </s>
+<s> CHESS </s>
+<s> PYCHESS </s>
+<s> DRAUGHTS </s>
+<s> GO </s>
+<s> MAELSTROM </s>
+<s> MASTERMIND </s>
+<s> PINBALL </s>
+<s> REVERSI </s>
+<s> SUPERTUXKART </s>
+<s> CALENDAR </s>
+<s> DATE </s>
+<s> TIME </s>
+<s> NAME </s>
+<s> AUDACITY </s>
+<s> OR DA CITY </s>
+<s> GENIE </s>
+<s> IMAGE EDITOR </s>
+<s> IMAGE VIEWER </s>
+<s> EDIT VIDEO </s>
+<s> GNU PAINT </s>
+<s> PAINT </s>
+<s> DRAW </s>
+<s> LEAF PAD </s>
+<s> NOTE PAD </s>
+<s> OSCILLOSCOPE </s>
+<s> RECORD MY DESKTOP </s>
+<s> SCREEN CAST </s>
+<s> SETTINGS </s>
+<s> SOFTWARE CENTRE </s>
+<s> TERMINAL </s>
+<s> VIRTUAL BOX </s>
+<s> WEB CAM </s>
+<s> MERLYN </s>
+<s> TELL ME ABOUT MERLYN </s>
+<s> EXIT </s>
+<s> HELP </s>
+<s> KEEP LISTENING </s>
+<s> STOP LISTENING </s>
+<s> SHOW BROWSERS </s>
+<s> SHOW GENERAL </s>
+<s> SHOW KEYBOARD </s>
+<s> SHOW WEBSITES </s>
+<s> ALWAYS ON TOP </s>
+<s> CLOSE DIALOG </s>
+<s> NEXT WINDOW </s>
+<s> PAGE DOWN </s>
+<s> PAGE UP </s>
+<s> PAGE BACK </s>
+<s> PAGE FORWARD </s>
+<s> QUIT APPLICATION </s>
+<s> SAVE FILE </s>
+<s> METTA F TWO </s>
+<s> APP LAUNCHER </s>
+<s> NEXT WORKSPACE </s>
+<s> PREVIOUS WORKSPACE </s>
+<s> DOCUMENT MENU </s>
+<s> EDIT MENU </s>
+<s> FILE MENU </s>
+<s> FORMAT MENU </s>
+<s> HELP MENU </s>
+<s> INSERT MENU </s>
+<s> MAXIMIZE WINDOW </s>
+<s> TOOLS MENU </s>
+<s> VIEW MENU </s>
+<s> FILES </s>
+<s> OPEN FILE MANAGER </s>
+<s> GO TO FILE MANAGER </s>
+<s> QUIT FILE MANAGER </s>
+<s> OPEN DESKTOP </s>
+<s> OPEN DOCUMENTS </s>
+<s> OPEN DOWNLOADS </s>
+<s> OPEN MERLYN </s>
+<s> OPEN MUSIC </s>
+<s> OPEN PICTURES </s>
+<s> OPEN VIDEOS </s>
+<s> ZERO </s>
+<s> ONE </s>
+<s> TWO </s>
+<s> THREE </s>
+<s> FOUR </s>
+<s> FIVE </s>
+<s> SIX </s>
+<s> SEVEN </s>
+<s> EIGHT </s>
+<s> NINE </s>
+<s> TEN </s>
+<s> ELEVEN </s>
+<s> TWELVE </s>
+<s> THIRTEEN </s>
+<s> FOURTEEN </s>
+<s> FIFTEEN </s>
+<s> SIXTEEN </s>
+<s> SEVENTEEN </s>
+<s> EIGHTEEN </s>
+<s> NINETEEN </s>
+<s> TWENTY </s>
+<s> THIRTY </s>
+<s> FORTY </s>
+<s> FIFTY </s>
+<s> SIXTY </s>
+<s> SEVENTY </s>
+<s> EIGHTY </s>
+<s> NINETY </s>
+<s> THOUSAND </s>
+<s> MILLION </s>
+<s> BILLION </s>
+<s> TRILLION </s>
+<s> HUNDRED </s>
+<s> CLICK AND HOLD </s>
+<s> LEFT BUTTON DOWN </s>
+<s> LEFT BUTTON UP </s>
+<s> CLICK HERE </s>
+<s> MOUSE CLICK </s>
+<s> DOUBLE CLICK </s>
+<s> MIDDLE CLICK </s>
+<s> MOUSE LOCATION </s>
+<s> MOUSE LEFT </s>
+<s> MOUSE WEST </s>
+<s> MOUSE ORIGIN </s>
+<s> MOUSE RIGHT </s>
+<s> MOUSE EAST </s>
+<s> MOUSE UP </s>
+<s> MOUSE NORTH </s>
+<s> MOUSE DOWN </s>
+<s> MOUSE SOUTH </s>
+<s> RIGHT CLICK </s>
+<s> PLACE WINDOW </s>
+<s> WINDOW DOWN </s>
+<s> WINDOW SOUTH </s>
+<s> WINDOW LEFT </s>
+<s> WINDOW WEST </s>
+<s> WINDOW ORIGIN </s>
+<s> WINDOW RIGHT </s>
+<s> WINDOW EAST </s>
+<s> WINDOW UP </s>
+<s> WINDOW NORTH </s>
+<s> NUMBER ZERO </s>
+<s> NUMBER ONE </s>
+<s> NUMBER TWO </s>
+<s> NUMBER THREE </s>
+<s> NUMBER FOUR </s>
+<s> NUMBER FIVE </s>
+<s> NUMBER SIX </s>
+<s> NUMBER SEVEN </s>
+<s> NUMBER EIGHT </s>
+<s> NUMBER NINE </s>
+<s> LETTER A </s>
+<s> LETTER B </s>
+<s> LETTER C </s>
+<s> LETTER D </s>
+<s> LETTER E </s>
+<s> LETTER F </s>
+<s> LETTER G </s>
+<s> LETTER H </s>
+<s> LETTER I </s>
+<s> LETTER J </s>
+<s> LETTER K </s>
+<s> LETTER L </s>
+<s> LETTER M </s>
+<s> LETTER N </s>
+<s> LETTER O </s>
+<s> LETTER P </s>
+<s> LETTER Q </s>
+<s> LETTER R </s>
+<s> LETTER S </s>
+<s> LETTER T </s>
+<s> LETTER U </s>
+<s> LETTER V </s>
+<s> LETTER W </s>
+<s> LETTER X </s>
+<s> LETTER Y </s>
+<s> LETTER Z </s>
+<s> CAPITAL A </s>
+<s> CAPITAL B </s>
+<s> CAPITAL C </s>
+<s> CAPITAL D </s>
+<s> CAPITAL E </s>
+<s> CAPITAL F </s>
+<s> CAPITAL G </s>
+<s> CAPITAL H </s>
+<s> CAPITAL I </s>
+<s> CAPITAL J </s>
+<s> CAPITAL K </s>
+<s> CAPITAL L </s>
+<s> CAPITAL M </s>
+<s> CAPITAL N </s>
+<s> CAPITAL O </s>
+<s> CAPITAL P </s>
+<s> CAPITAL Q </s>
+<s> CAPITAL R </s>
+<s> CAPITAL S </s>
+<s> CAPITAL T </s>
+<s> CAPITAL U </s>
+<s> CAPITAL V </s>
+<s> CAPITAL W </s>
+<s> CAPITAL X </s>
+<s> CAPITAL Y </s>
+<s> CAPITAL Z </s>
+<s> EFF ONE </s>
+<s> EFF TWO </s>
+<s> EFF THREE </s>
+<s> EFF FOUR </s>
+<s> EFF FIVE </s>
+<s> EFF SIX </s>
+<s> EFF SEVEN </s>
+<s> EFF EIGHT </s>
+<s> EFF NINE </s>
+<s> EFF TEN </s>
+<s> EFF ELEVEN </s>
+<s> EFF TWELVE </s>
+<s> BACKSPACE </s>
+<s> CANCEL </s>
+<s> COLON </s>
+<s> COMMA </s>
+<s> CONTROL A </s>
+<s> CONTROL B </s>
+<s> CONTROL C </s>
+<s> CONTROL D </s>
+<s> CONTROL E </s>
+<s> CONTROL F </s>
+<s> CONTROL G </s>
+<s> CONTROL H </s>
+<s> CONTROL I </s>
+<s> CONTROL J </s>
+<s> CONTROL K </s>
+<s> CONTROL L </s>
+<s> CONTROL M </s>
+<s> CONTROL N </s>
+<s> CONTROL O </s>
+<s> CONTROL P </s>
+<s> CONTROL Q </s>
+<s> CONTROL R </s>
+<s> CONTROL S </s>
+<s> CONTROL T </s>
+<s> CONTROL U </s>
+<s> CONTROL V </s>
+<s> CONTROL W </s>
+<s> CONTROL X </s>
+<s> CONTROL Y </s>
+<s> CONTROL Z </s>
+<s> CONTROL SHIFT C </s>
+<s> CONTROL SHIFT E </s>
+<s> CONTROL SHIFT N </s>
+<s> CONTROL SHIFT O </s>
+<s> CONTROL SHIFT V </s>
+<s> CONTROL SHIFT W </s>
+<s> DELETE </s>
+<s> END LINE </s>
+<s> ENTER </s>
+<s> EQUALS </s>
+<s> ESCAPE </s>
+<s> HOME </s>
+<s> MINUS </s>
+<s> PERIOD </s>
+<s> PIPE </s>
+<s> PLUS </s>
+<s> PRESS DELETE </s>
+<s> PRESS END </s>
+<s> PRESS ENTER </s>
+<s> PRESS ESCAPE </s>
+<s> PRESS HOME </s>
+<s> PRESS TAB </s>
+<s> QUESTION MARK </s>
+<s> RESTORE WINDOW </s>
+<s> SEMICOLON </s>
+<s> SPACE BAR </s>
+<s> SPACE </s>
+<s> STAR </s>
+<s> SUPER KEY </s>
+<s> SWITCH BACK </s>
+<s> TAB </s>
+<s> TILDE </s>
+<s> GO DOWN </s>
+<s> GO LEFT </s>
+<s> GO RIGHT </s>
+<s> GO UP </s>
+<s> DOWN ARROW </s>
+<s> LEFT ARROW </s>
+<s> RIGHT ARROW </s>
+<s> UP ARROW </s>
+<s> AI LINUX </s>
+<s> AMAZON </s>
+<s> DICTATION </s>
+<s> EBAY </s>
+<s> FACEBOOK </s>
+<s> FRACTAL ART GALLERY </s>
+<s> GOOGLE </s>
+<s> GOOGLE MAIL </s>
+<s> GOOGLE NEWS </s>
+<s> HERE BE DRAGONS </s>
+<s> LINKEDIN </s>
+<s> MAP </s>
+<s> NETFLIX </s>
+<s> PYTHON 3 CODES </s>
+<s> REDDIT </s>
+<s> SEARCH </s>
+<s> SPHINX TOOL </s>
+<s> TWITTER </s>
+<s> WEATHER </s>
+<s> WIKIPEDIA </s>
+<s> X DO TOOLS </s>
+<s> YOUTUBE </s>
+<s> TUXAR </s>
+<s> AMAZON ALAN PARSONS </s>
+<s> SPOTIFY ALAN PARSONS </s>
+<s> YOUTUBE ALAN PARSONS </s>
+<s> AMAZON BEATLES </s>
+<s> SPOTIFY BEATLES </s>
+<s> YOUTUBE BEATLES </s>
+<s> AMAZON DEEP PURPLE </s>
+<s> SPOTIFY DEEP PURPLE </s>
+<s> YOUTUBE DEEP PURPLE </s>
+<s> AMAZON EMERSON LAKE AND PALMER </s>
+<s> SPOTIFY EMERSON LAKE AND PALMER </s>
+<s> YOUTUBE EMERSON LAKE AND PALMER </s>
+<s> AMAZON EVANESCENCE </s>
+<s> SPOTIFY EVANESCENCE </s>
+<s> YOUTUBE EVANESCENCE </s>
+<s> AMAZON MOODY BLUES </s>
+<s> SPOTIFY MOODY BLUES </s>
+<s> YOUTUBE MOODY BLUES </s>
+<s> YOUTUBE MY MUSIC </s>
+<s> AMAZON OZRIC TENTACLES </s>
+<s> SPOTIFY OZRIC TENTACLES </s>
+<s> YOUTUBE OZRIC TENTACLES </s>
+<s> AMAZON PINK FLOYD </s>
+<s> SPOTIFY PINK FLOYD </s>
+<s> YOUTUBE PINK FLOYD </s>
+<s> AMAZON PROG ROCK </s>
+<s> SPOTIFY PROG ROCK </s>
+<s> YOUTUBE PROG ROCK </s>
+<s> AMAZON RARE BIRD </s>
+<s> SPOTIFY RARE BIRD </s>
+<s> YOUTUBE RARE BIRD </s>
+<s> AMAZON TANGERINE DREAM </s>
+<s> SPOTIFY TANGERINE DREAM </s>
+<s> YOUTUBE TANGERINE DREAM </s>
+<s> AMAZON WAR OF THE WORLDS </s>
+<s> SPOTIFY WAR OF THE WORLDS </s>
+<s> YOUTUBE WAR OF THE WORLDS </s>
+<s> AMAZON YES </s>
+<s> SPOTIFY YES </s>
+<s> YOUTUBE YES </s>

@@ -1,0 +1,19 @@
+# Chrome App	:	Speech Recognizier -- to turn on the 
+# mic you must calibrate mic first. To calibrate the mic,
+# hover the mouse over the mic icon and say the
+# command. It will store the coordinates in text files and the
+# "microphone" command will use those coordinates to click the mouse
+# in the right spot.
+
+CALIBRATE MIKE	:	$CONFIGDIR/scripts/calibrate_mic.sh
+SPEECH RECOGNIZER:	wmctrl -a google-chrome && xdotool key alt+1 Control+l Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Control+a
+DICTA NOTE	:	wmctrl -a google-chrome && xdotool key alt+1 Control+l Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Control+a
+MICROPHONE	:	$CONFIGDIR/scripts/mic_on.sh
+FIX SPACING	:	xdotool key Control+a Control+c && text=$(xclip -o | sed -e 's/ * / /g' | sed -e 's/^ * //') && sleep .1 && $KEYPRESS "$text" 
+OPEN DICTATION BOX:	google-chrome --app=https://www.google.com/intl/en/chrome/demos/speech.html --app-window-size=600,500 && sleep 1 && xdotool key Tab Tab Return
+GO TO DICTATION BOX:	wmctrl -a "Chrome Browser" && xdotool key Control+r && sleep 1 && xdotool key Tab Tab Return
+CLOSE DICTATION BOX:	wmctrl -c "Chrome Browser"
+STOP TALKING	:	xdotool key Tab && sleep .2 && $KEYPRESS '\r'
+TRANSFER KEEP	:	xdotool key Control+c && sleep .1 && xdotool key alt+Tab && sleep .1 && xdotool key Control+v
+TRANSFER TEXT	:	xdotool key Control+c && sleep .1 && xdotool key alt+Tab && sleep .1 && text=$(xclip -o | sed -e 's/[Ss]top talking//') && sleep .1 && $KEYPRESS "$text" 
+CENTER CURSOR	:	center=$(xdpyinfo |grep dimensions | awk -F " " '{ print $2 }' | awk -F "x" '{ print $1/2 " " $2/2 }') && xdotool mousemove $center

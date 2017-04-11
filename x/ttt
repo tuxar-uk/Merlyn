@@ -1,0 +1,90 @@
+BACKSPACE	:	xdotool key BackSpace
+CANCEL		:	xdotool key Escape
+COLON		:	xdotool key colon
+COMMA		:	xdotool key comma
+CONTROL ARE	:	xdotool key Control+r
+CONTROL A	:	xdotool key Control+a
+CONTROL B	:	xdotool key Control+b
+CONTROL C	:	xdotool key Control+c
+CONTROL C	:	xdotool key ctrl+c
+CONTROL D	:	xdotool key Control+d
+CONTROL ENTER	:	xdotool key Control+Return
+CONTROL E	:	xdotool key Control+e
+CONTROL F	:	xdotool key Control+f
+CONTROL H	:	xdotool key Control+h
+CONTROL IN	:	xdotool key Control+n
+CONTROL I	:	xdotool key Control+i
+CONTROL K	:	xdotool key Control+k
+CONTROL L	:	xdotool key Control+l
+CONTROL O	:	xdotool key Control+o
+CONTROL P	:	xdotool key Control+p
+CONTROL SHIFT C	:	xdotool key Control+C
+CONTROL SHIFT E	:	xdotool key Control+E
+CONTROL SHIFT IN:	xdotool key Control+N
+CONTROL SHIFT O	:	xdotool key Control+O
+CONTROL SHIFT V	:	xdotool key Control+V
+CONTROL SHIFT W	:	xdotool key Control+W
+DELETE		:	xdotool key Delete
+DOWN ARROW	:	xdotool key Down
+END LINE	:	xdotool key End
+ENTER		:	xdotool key Return
+EQUALS		:	xdotool key equal
+ESCAPE		:	xdotool key Escape
+GO DOWN		:	xdotool key Down
+GO LEFT		:	xdotool key Left
+GO RIGHT	:	xdotool key Right
+GO UP		:	xdotool key Up
+HOME		:	xdotool key Home
+LEFT ARROW	:	xdotool key Left
+METTA BOB	:	xdotool key alt+b
+METTA B		:	xdotool key alt+b
+METTA C		:	xdotool key alt+c
+METTA EFF TWO	:	xdotool key Alt+F2
+METTA EYE	:	xdotool key alt+i
+METTA L		:	xdotool key alt+l
+METTA m		:	xdotool key alt+m
+METTA n		:	xdotool key alt+n
+METTA P		:	xdotool key alt+p
+METTA S		:	xdotool key alt+s
+METTA W		:	xdotool key alt+w
+MINUS		:	xdotool key minus
+PAGE DOWN	:	xdotool key Next
+PAGE UP		:	xdotool key Prior
+PERIOD		:	$KEYPRESS "."
+PERIOD		:	xdotool key period
+PIPE		:	xdotool key bar
+PLUS		:	xdotool key plus
+PRESS DELETE	:	xdotool key Delete
+PRESS EIGHT	:	xdotool key 8
+PRESS END	:	xdotool key End
+PRESS ENTER	:	xdotool key Return
+PRESS ESCAPE	:	xdotool key Escape
+PRESS FIVE	:	xdotool key 5
+PRESS FOUR	:	xdotool key 4
+PRESS F		:	xdotool key f
+PRESS HOME	:	xdotool key Home
+PRESS NINE	:	xdotool key 9
+PRESS ONE	:	xdotool key 1
+PRESS Q		:	xdotool key q
+PRESS SEVEN	:	xdotool key 7
+PRESS SIX	:	xdotool key 6
+PRESS TAB	:	xdotool key Tab
+PRESS THREE	:	xdotool key 3
+PRESS TWO	:	xdotool key 2
+PRESS ZERO	:	xdotool key 0
+QUESTION MARK	:	xdotool key question
+RESTORE WINDOW	:	xdotool key alt+space && sleep .1 && xdotool key e
+#RESTORE WINDOW	:	xdotool key super+Down # for gnome 3
+RIGHT ARROW	:	xdotool key Right
+SELECT ALL	:	xdotool key ctrl+a
+SEMICOLON	:	xdotool key semicolon
+SPACE BAR	:	xdotool key space
+SPACE		:	xdotool key space
+STAR		:	xdotool key asterisk
+SUPER KEY	:	xdotool key super
+SWITCH BACK	:	xdotool key alt+Tab
+TAB		:	xdotool key Tab
+TILDE		:	$KEYPRESS "~"
+TOOLS MENU	:	xdotool key alt+t
+UP ARROW	:	xdotool key Up
+VIEW MENU	:	xdotool key alt+v

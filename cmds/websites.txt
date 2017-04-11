@@ -1,0 +1,68 @@
+# ------- Websites
+
+AI LINUX	:	$MLN_BROWSER http://ailinux.net/
+AMAZON		:	$MLN_BROWSER http://amazon.co.uk/
+DICTATION	:	$MLN_BROWSER https://dictation.io/
+EBAY		:	$MLN_BROWSER https://ebay.co.uk/
+FACEBOOK	:	$MLN_BROWSER http://facebook.com/
+FRACTAL ART GALLERY:	$MLN_BROWSER http://fractalart.gallery/
+GOOGLE		:	$MLN_BROWSER https://google.co.uk/
+GOOGLE MAIL	:	$MLN_BROWSER https://mail.google.com/mail/u/0/#inbox
+GOOGLE NEWS	:	$MLN_BROWSER https://news.google.co.uk/
+HERE BE DRAGONS	:	$MLN_BROWSER http://herebedragons.wales/
+LINKEDIN	:	$MLN_BROWSER http://linkedin.com/
+MAP		:	$MLN_BROWSER https://google.co.uk/maps/place/
+NETFLIX		:	$MLN_BROWSER http://netflix.com/
+PYTHON 3 CODES	:	$MLN_BROWSER http://python3.codes/
+REDDIT		:	$MLN_BROWSER https://www.reddit.com/
+SEARCH		:	$MLN_BROWSER https://www.google.co.uk/
+SPHINX TOOL	:	$MLN_BROWSER http://www.speech.cs.cmu.edu/tools/lmtool-new.html
+TWITTER		:	$MLN_BROWSER https://twitter.com/
+WEATHER		:	$MLN_BROWSER https://www.google.co.uk/search?q=weather
+WIKIPEDIA	:	$MLN_BROWSER https://en.wikipedia.org/wiki/Main_Page
+X DO TOOLS	:	$MLN_BROWSER http://www.semicomplete.com/projects/xdotool/xdotool.xhtml
+YOUTUBE		:	$MLN_BROWSER https://www.youtube.com/
+TUXAR		:	$MLN_BROWSER http://tuxar.uk/
+
+# ------- My favourite music 
+
+AMAZON  ALAN PARSONS:	$MLN_BROWSER https://music.amazon.co.uk/my/playlists/Alan+Parsons/bab80367-6a27-4160-a4c1-4b00ae88a65f
+SPOTIFY ALAN PARSONS:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/2m62cc253Xvd9qYQ8d2X3d
+YOUTUBE ALAN PARSONS:	$MLN_BROWSER https://www.youtube.com/watch?v=tW2e4tpOBGA&list=PL2SSSOyEwLzvEVEEqInMvVEtsO2YGQS2a
+AMAZON  BEATLES	:	$MLN_BROWSER https://music.amazon.co.uk/playlists/B019P2DVNQ
+SPOTIFY BEATLES	:	$MLN_BROWSER https://play.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2
+YOUTUBE BEATLES	:	$MLN_BROWSER https://www.youtube.com/watch?v=NCtzkaL2t_Y&list=RDEMDwfWqCd9jXCuVO7pjkJHTw
+AMAZON  DEEP PURPLE:	$MLN_BROWSER https://music.amazon.co.uk/my/playlists/Deep+Purple/5242f84d-2490-4eba-aa1a-e291e7123a90`
+SPOTIFY DEEP PURPLE:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/568ZhdwyaiCyOGJRtNYhWf
+YOUTUBE DEEP PURPLE:	$MLN_BROWSER https://www.youtube.com/watch?v=zUwEIt9ez7M&list=RDEMrL1dIgMZ7IJ3KbJOBAuAmA
+AMAZON  EMERSON LAKE AND PALMER:$MLN_BROWSER https://music.amazon.co.uk/my/playlists/ELP/3db6c437-8577-4a22-898d-8af468c59ae1
+SPOTIFY EMERSON LAKE AND PALMER:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0nCiidE5GgDrc5kWN3NZgZ
+YOUTUBE EMERSON LAKE AND PALMER:$MLN_BROWSER https://www.youtube.com/watch?v=_8VHHcd0M_o&list=RDEMV-89hDva-9BsS2UV_r6PHQ
+AMAZON  EVANESCENCE:	$MLN_BROWSER https://music.amazon.co.uk/artists/B001E71R5A/
+SPOTIFY EVANESCENCE:	$MLN_BROWSER https://play.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c
+YOUTUBE EVANESCENCE:	$MLN_BROWSER https://www.youtube.com/watch?v=5anLPw0Efmo&list=RDEM91LqLUokd9H6aB3qnl1JYw
+AMAZON  MOODY BLUES:	$MLN_BROWSER https://music.amazon.co.uk/stations/AZBST3CMQZCH8
+SPOTIFY MOODY BLUES:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/5BcZ22XONcRoLhTbZRuME1
+YOUTUBE MOODY BLUES	:	$MLN_BROWSER https://www.youtube.com/watch?v=IAjGdmFKf8E&list=PLqZjG2CJnxpRFmIh2kbJGwzbNJLZtkaFp
+YOUTUBE MY MUSIC	:	$MLN_BROWSER https://www.youtube.com/watch?v=ViIx5uagasY&list=PL-MQ2wS-IPhApRRjqilUit2xBXfH0Li8y
+AMAZON  OZRIC TENTACLES	:	$MLN_BROWSER https://music.amazon.co.uk/artists/B001FJJFBA
+SPOTIFY OZRIC TENTACLES	:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0Iv00ucAIqr5KVS7bXGFa9
+YOUTUBE OZRIC TENTACLES	:	$MLN_BROWSER https://www.youtube.com/watch?v=UXAaDqPl7oY&list=RDEMCx7Sk4N4iJqirwFyMoyj1A
+AMAZON  PINK FLOYD	:	$MLN_BROWSER https://music.amazon.co.uk/stations/A2WNNS1FJEGRHM
+SPOTIFY PINK FLOYD	:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0k17h0D3J5VfsdmQ1iZtE9
+YOUTUBE PINK FLOYD	:	$MLN_BROWSER https://www.youtube.com/watch?v=YR5ApYxkU-U&list=RDEMMuNo_ya96ky4y2AzB2-mHg
+AMAZON  PROG ROCK	:	$MLN_BROWSER https://music.amazon.co.uk/stations/A1S0RQA64N5XSB
+SPOTIFY PROG ROCK	:	$MLN_BROWSER https://play.spotify.com/user/spotify/playlist/1F4zfIjhDWRDZ44kEL85jf
+YOUTUBE PROG ROCK	:	$MLN_BROWSER https://www.youtube.com/watch?v=Kucx955q8mU&list=PLHsIbhFqaHEIaO5IzHWqv34WFLhcFXC9q
+AMAZON  RARE BIRD	:	$MLN_BROWSER https://music.amazon.co.uk/artists/B001EM8FDC
+SPOTIFY RARE BIRD	:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0E0Yi0mxPBvSIwET5oLlrT
+YOUTUBE RARE BIRD	:	$MLN_BROWSER https://www.youtube.com/watch?v=2TMw92_q8Ac&list=RDEM4Cu15dy94__rEWnUrpr4Jg
+AMAZON  TANGERINE DREAM :	$MLN_BROWSER https://music.amazon.co.uk/artists/B001E32S98
+SPOTIFY TANGERINE DREAM :	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/1BGN1IdyiSR0ZYrkoKNchl
+YOUTUBE TANGERINE DREAM :	$MLN_BROWSER https://www.youtube.com/watch?v=2w8VsvJ40sM&list=RDEMflsAy-eLxQ2-oszlwebZ4g
+AMAZON  WAR OF THE WORLDS:	$MLN_BROWSER https://music.amazon.co.uk/artists/B001F9IPDY?ref=dm_sh_09df-8ecb-dmcp-31c2-2f73f
+SPOTIFY WAR OF THE WORLDS:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/5bpiFjU6CnEErF1C8gBqvG
+YOUTUBE WAR OF THE WORLDS:	$MLN_BROWSER https://www.youtube.com/watch?v=ZQth5ezjWpM
+AMAZON  YES 		:	$MLN_BROWSER https://music.amazon.co.uk/stations/A265Q4RTMLPCD9
+SPOTIFY YES 		:	$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/7AC976RDJzL2asmZuz7qil
+YOUTUBE YES 		:	$MLN_BROWSER https://www.youtube.com/watch?v=-Tdu4uKSZ3M&list=RDEMr-7pJyIFzDRGhGCcfDkvPQ

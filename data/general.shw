@@ -1,0 +1,15 @@
+
+MERLYN CONTROL:
+merlyn,	tell me about merlyn,	exit,	help,	keep listening,	stop listening,	show browsers,	show general,	show keyboard,	show websites,	
+GENERIC DESKTOP COMMANDS:
+always on top,	close dialog,	next window,	page down,	page up,	page back,	page forward,	quit application,	save file,	
+GENERAL PURPOSE NAVIGATION AND DESKTOP CONTROL COMMANDS:
+metta f two,	app launcher,	next workspace,	previous workspace,	
+WINDOWS & MENUS:
+document menu,	edit menu,	file menu,	format menu,	help menu,	insert menu,	maximize window,	tools menu,	view menu,	
+FILE MANAGER:
+files,	open file manager,	go to file manager,	quit file manager,	
+MAIN FOLDERS:
+open desktop,	open documents,	open downloads,	open merlyn,	open music,	open pictures,	open videos,	
+VOCABULARY ONLY, NO SPELLS:
+zero,	one,	two,	three,	four,	five,	six,	seven,	eight,	nine,	ten,	eleven,	twelve,	thirteen,	fourteen,	fifteen,	sixteen,	seventeen,	eighteen,	nineteen,	twenty,	thirty,	forty,	fifty,	sixty,	seventy,	eighty,	ninety,	thousand,	million,	billion,	trillion,	hundred,	

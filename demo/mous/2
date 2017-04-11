@@ -1,0 +1,16 @@
+#!/bin/bash
+mpg123 gnu_paint.mp3		;	sleep 2
+mpg123 window_origin.mp3	;	sleep 1
+mpg123 window_east_400.mp3	;	sleep 1
+mpg123 window_south_100.mp3	;	sleep 1
+mpg123 mouse_origin.mp3		;	sleep 1
+mpg123 mouse_east_600.mp3	;	sleep 1
+mpg123 mouse_south_400.mp3	;	sleep 1
+mpg123 left_button_down.mp3	;	sleep 1
+mpg123 mouse_east_600.mp3	;	sleep 1
+mpg123 mouse_south_300.mp3	;	sleep 1
+mpg123 mouse_west_600.mp3	;	sleep 1
+mpg123 mouse_north_300.mp3	;	sleep 1
+mpg123 left_button_up.mp3	;	sleep 1
+mpg123 close_window.mp3		;	sleep 1
+mpg123 press_enter.mp3		;	sleep 1

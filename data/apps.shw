@@ -1,0 +1,17 @@
+
+BROWSERS:
+address field,	address,	close tab,	close window,	dot com,	dot co uck,	dot net,	dot org,	find on page,	firefox preferences,	full screen,	go back,	go forward,	go to browser,	go to firefox,	new file,	new tab,	new window,	next tab,	open browser,	open firefox,	open google chrome,	previous tab,	quit browser,	quit firefox,	refresh page,	restore tab,	search field,	tab eight,	tab five,	tab four,	tab nine,	tab one,	tab seven,	tab six,	tab three,	tab two,	
+RHYTHMBOX:
+music,	music next,	music pause,	music play,	music prev,	music show,	music silence,	open rhythmbox,	go to rhythmbox,	quit rhythmbox,	search music,	
+CALCULATOR:
+calculator,	quit calculator,	add,	divide by,	multiply by,	number,	subtract,	times,	
+VLC:
+open v l c,	go to v l c,	quit v l c,	play faster,	normal speed,	half size,	full size,	open volume control,	go to volume control,	
+MEDIA -- DEPENDS ON MPG122 ------ #:
+lower volume,	mute sound,	next track,	pause play,	play pause,	previous track,	raise volume,	restart track,	un mute sound,	
+GAMES:
+backgammon,	checkers,	chess,	pychess,	draughts,	go,	maelstrom,	mastermind,	pinball,	reversi,	supertuxkart,	
+INFORMATION:
+calendar,	date,	time,	name,	
+MISCELLANEOUS APPS:
+audacity,	or da city,	genie,	image editor,	image viewer,	edit video,	gnu paint,	paint,	draw,	leaf pad,	note pad,	oscilloscope,	record my desktop,	screen cast,	settings,	software centre,	terminal,	virtual box,	web cam,	

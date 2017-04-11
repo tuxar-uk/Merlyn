@@ -1,0 +1,191 @@
+# ------- Mouse
+
+CLICK AND HOLD	:	xdotool mousedown 1
+LEFT BUTTON DOWN:	xdotool mousedown 1
+LEFT BUTTON UP	:	xdotool mouseup 1
+CLICK HERE	:	xdotool click 1
+MOUSE CLICK	:	xdotool click 1
+DOUBLE CLICK	:	xdotool click 1 ; xdotool click 1
+MIDDLE CLICK	:	xdotool key Ctrl+shift+v
+MOUSE LOCATION  :       coords=$(xdotool getmouselocation | sed -e 's/screen.*$//') && xmessage $coords
+MOUSE LEFT	:	xdotool mousemove_relative -- -%s 0
+MOUSE WEST	:	xdotool mousemove_relative -- -%s 0
+MOUSE ORIGIN	:	xdotool mousemove 0 0
+MOUSE RIGHT	:	xdotool mousemove_relative  %s 0
+MOUSE EAST	:	xdotool mousemove_relative  %s 0
+MOUSE UP	:	xdotool mousemove_relative -- 0 -%s
+MOUSE NORTH	:	xdotool mousemove_relative -- 0 -%s
+MOUSE DOWN	:	xdotool mousemove_relative 0 %s
+MOUSE SOUTH	:	xdotool mousemove_relative 0 %s
+RIGHT CLICK	:	xdotool click 3
+
+PLACE WINDOW	:	xdotool getactivewindow windowmove 600 300 mousemove 800 550
+WINDOW DOWN	:	xdotool getactivewindow windowmove --relative 0 %s
+WINDOW SOUTH	:	xdotool getactivewindow windowmove --relative 0 %s
+WINDOW LEFT	:	xdotool getactivewindow windowmove --relative -%s 0
+WINDOW WEST	:	xdotool getactivewindow windowmove --relative -%s 0
+WINDOW ORIGIN	:	xdotool getactivewindow windowmove 0 0
+WINDOW RIGHT	:	xdotool getactivewindow windowmove --relative %s 0
+WINDOW EAST	:	xdotool getactivewindow windowmove --relative %s 0
+WINDOW UP	:	xdotool getactivewindow windowmove --relative 0 -%s
+WINDOW NORTH	:	xdotool getactivewindow windowmove --relative 0 -%s
+
+# ------- Numbers
+
+NUMBER ZERO	:	xdotool key 0
+NUMBER ONE	:	xdotool key 1
+NUMBER TWO	:	xdotool key 2
+NUMBER THREE	:	xdotool key 3
+NUMBER FOUR	:	xdotool key 4
+NUMBER FIVE	:	xdotool key 5
+NUMBER SIX	:	xdotool key 6
+NUMBER SEVEN	:	xdotool key 7
+NUMBER EIGHT	:	xdotool key 8
+NUMBER NINE	:	xdotool key 9
+
+# ------- Alphabet
+
+LETTER a	:	xdotool type a 
+LETTER b	:	xdotool type b 
+LETTER c	:	xdotool type c 
+LETTER d	:	xdotool type d 
+LETTER e	:	xdotool type e 
+LETTER f	:	xdotool type f 
+LETTER g	:	xdotool type g 
+LETTER h	:	xdotool type h 
+LETTER i	:	xdotool type i 
+LETTER j	:	xdotool type j 
+LETTER k	:	xdotool type k 
+LETTER l	:	xdotool type l 
+LETTER m	:	xdotool type m 
+LETTER n	:	xdotool type n 
+LETTER o	:	xdotool type o 
+LETTER p	:	xdotool type p 
+LETTER q	:	xdotool type q 
+LETTER r	:	xdotool type r 
+LETTER s	:	xdotool type s 
+LETTER t	:	xdotool type t 
+LETTER u	:	xdotool type u 
+LETTER v	:	xdotool type v 
+LETTER w	:	xdotool type w 
+LETTER x	:	xdotool type x 
+LETTER y	:	xdotool type y 
+LETTER z	:	xdotool type z
+CAPITAL a	:	xdotool type A
+CAPITAL b	:	xdotool type B
+CAPITAL c	:	xdotool type C
+CAPITAL d	:	xdotool type D
+CAPITAL e	:	xdotool type E
+CAPITAL f	:	xdotool type F
+CAPITAL g	:	xdotool type G
+CAPITAL h	:	xdotool type H
+CAPITAL i	:	xdotool type I
+CAPITAL j	:	xdotool type J
+CAPITAL k	:	xdotool type K
+CAPITAL l	:	xdotool type L
+CAPITAL m	:	xdotool type M
+CAPITAL n	:	xdotool type N
+CAPITAL o	:	xdotool type O
+CAPITAL p	:	xdotool type P
+CAPITAL q	:	xdotool type Q
+CAPITAL r	:	xdotool type R
+CAPITAL s	:	xdotool type S
+CAPITAL t	:	xdotool type T
+CAPITAL u	:	xdotool type U
+CAPITAL v	:	xdotool type V
+CAPITAL w	:	xdotool type W
+CAPITAL x	:	xdotool type X
+CAPITAL y	:	xdotool type Y
+CAPITAL z	:	xdotool type Z
+
+# ------- Function keys
+
+EFF one		:	xdotool key F1
+EFF two		:	xdotool key F2
+EFF three	:	xdotool key F3
+EFF four	:	xdotool key F4
+EFF five	:	xdotool key F5
+EFF six		:	xdotool key F6
+EFF seven	:	xdotool key F7
+EFF eight	:	xdotool key F8
+EFF nine	:	xdotool key F9
+EFF ten		:	xdotool key F10
+EFF eleven	:	xdotool key F11
+EFF twelve	:	xdotool key F12
+
+# ------- Other Keystrokes
+
+BACKSPACE	:	xdotool key BackSpace
+CANCEL		:	xdotool key Escape
+COLON		:	xdotool key colon
+COMMA		:	xdotool key comma
+CONTROL A	:	xdotool key Ctrl+a
+CONTROL B	:	xdotool key Ctrl+b
+CONTROL C	:	xdotool key Ctrl+c
+CONTROL D	:	xdotool key Ctrl+d
+CONTROL E	:	xdotool key Ctrl+e
+CONTROL F	:	xdotool key Ctrl+f
+CONTROL G	:	xdotool key Ctrl+g
+CONTROL H	:	xdotool key Ctrl+h
+CONTROL I	:	xdotool key Ctrl+i
+CONTROL J	:	xdotool key Ctrl+j
+CONTROL K	:	xdotool key Ctrl+k
+CONTROL L	:	xdotool key Ctrl+l
+CONTROL M	:	xdotool key Ctrl+m
+CONTROL N	:	xdotool key Ctrl+n
+CONTROL O	:	xdotool key Ctrl+o
+CONTROL P	:	xdotool key Ctrl+p
+CONTROL Q	:	xdotool key Ctrl+q
+CONTROL R	:	xdotool key Ctrl+r
+CONTROL S	:	xdotool key Ctrl+s
+CONTROL T	:	xdotool key Ctrl+t
+CONTROL U	:	xdotool key Ctrl+u
+CONTROL V	:	xdotool key Ctrl+v
+CONTROL W	:	xdotool key Ctrl+w
+CONTROL X	:	xdotool key Ctrl+x
+CONTROL Y	:	xdotool key Ctrl+y
+CONTROL Z	:	xdotool key Ctrl+z
+CONTROL SHIFT C	:	xdotool key Ctrl+C
+CONTROL SHIFT E	:	xdotool key Ctrl+E
+CONTROL SHIFT N:	xdotool key Ctrl+N
+CONTROL SHIFT O	:	xdotool key Ctrl+O
+CONTROL SHIFT V	:	xdotool key Ctrl+V
+CONTROL SHIFT W	:	xdotool key Ctrl+W
+DELETE		:	xdotool key Delete
+END LINE	:	xdotool key End
+ENTER		:	xdotool key Return
+EQUALS		:	xdotool key equal
+ESCAPE		:	xdotool key Escape
+HOME		:	xdotool key Home
+MINUS		:	xdotool key minus
+PERIOD		:	xdotool key period
+PIPE		:	xdotool key bar
+PLUS		:	xdotool key plus
+PRESS DELETE	:	xdotool key Delete
+PRESS END	:	xdotool key End
+PRESS ENTER	:	xdotool key Return
+PRESS ESCAPE	:	xdotool key Escape
+PRESS HOME	:	xdotool key Home
+PRESS TAB	:	xdotool key Tab
+QUESTION MARK	:	xdotool key question
+RESTORE WINDOW	:	xdotool key alt+space && sleep .1 && xdotool key e
+#RESTORE WINDOW	:	xdotool key super+Down # for gnome 3
+SEMICOLON	:	xdotool key semicolon
+SPACE BAR	:	xdotool key space
+SPACE		:	xdotool key space
+STAR		:	xdotool key asterisk
+SUPER KEY	:	xdotool key super
+SWITCH BACK	:	xdotool key alt+Tab
+TAB		:	xdotool key Tab
+TILDE		:	xdotool key tilde
+
+# ------- Arrow keys
+
+GO DOWN		:	xdotool key Down
+GO LEFT		:	xdotool key Left
+GO RIGHT	:	xdotool key Right
+GO UP		:	xdotool key Up
+DOWN ARROW	:	xdotool key Down
+LEFT ARROW	:	xdotool key Left
+RIGHT ARROW	:	xdotool key Right
+UP ARROW	:	xdotool key Up

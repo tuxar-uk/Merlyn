@@ -1,0 +1,136 @@
+# ------- Browsers
+
+ADDRESS FIELD	:	xdotool key Ctrl+l
+ADDRESS		:	xdotool key Ctrl+l
+CLOSE TAB	:	xdotool key Ctrl+w
+CLOSE WINDOW	:	xdotool key Ctrl+w
+DOT COM		:	xdotool type .com
+DOT CO UCK	:	xdotool type .co.uk
+DOT NET		:	xdotool type .net
+DOT ORG		:	xdotool type .org
+FIND ON PAGE	:	xdotool key Ctrl+f
+FIREFOX PREFERENCES:	xdotool key alt+e n
+FULL SCREEN	:	xdotool key F11
+GO BACK		:	xdotool key alt+Left
+GO FORWARD	:	xdotool key alt+Right
+GO TO BROWSER	:	wmctrl -a google chrome
+GO TO FIREFOX	:	wmctrl -a firefox
+NEW FILE	:	xdotool key Ctrl+n
+NEW TAB		:	xdotool key Ctrl+t
+NEW WINDOW	:	xdotool key Ctrl+n
+NEXT TAB	:	xdotool key Ctrl+Page_Down
+OPEN BROWSER	:	google-chrome &
+OPEN FIREFOX	:	firefox &
+OPEN GOOGLE CHROME:	google-chrome &
+PREVIOUS TAB	:	xdotool key Ctrl+Page_Up
+QUIT BROWSER	:	wmctrl -c google chrome
+QUIT FIREFOX	:	wmctrl -c firefox
+REFRESH PAGE	:	xdotool key Ctrl+r
+RESTORE TAB	:	xdotool key Ctrl+Shift+t
+SEARCH FIELD	:	xdotool key Ctrl+f
+TAB EIGHT	:	xdotool key alt+8
+TAB FIVE	:	xdotool key alt+5
+TAB FOUR	:	xdotool key alt+4
+TAB NINE	:	xdotool key alt+9
+TAB ONE		:	xdotool key alt+1
+TAB SEVEN	:	xdotool key alt+7
+TAB SIX		:	xdotool key alt+6
+TAB THREE	:	xdotool key alt+3
+TAB TWO		:	xdotool key alt+2
+
+# ------- Rhythmbox
+
+MUSIC		:	rhythmbox-client
+MUSIC next	:	rhythmbox-client --next
+MUSIC pause	:	rhythmbox-client --pause
+MUSIC play	:	rhythmbox-client --play
+MUSIC prev	:	rhythmbox-client --previous
+MUSIC show	:	rhythmbox-client --notify
+MUSIC silence	:	rhythmbox-client --pause
+OPEN RHYTHMBOX	:	rhythmbox &
+GO TO RHYTHMBOX	:	rid=$(pgrep rhythmbox) && rwinname=$(wmctrl -lp |grep $rid |sed -e "s/.*$rid * //" | sed -e "s/$(hostname) //") && wmctrl -a $rwinname
+QUIT RHYTHMBOX	:	rid=$(pgrep rhythmbox) && rwinname=$(wmctrl -lp |grep $rid |sed -e "s/.*$rid * //" | sed -e "s/$(hostname) //") && wmctrl -c $rwinname
+SEARCH MUSIC	:	xvkbd -no-jump-pointer -secure -text '\As'
+
+# ------- Calculator
+
+CALCULATOR	:	gnome-calculator &
+QUIT CALCULATOR	:	wmctrl -c gnome-calculator
+ADD		:	xdotool type +%s
+DIVIDE BY	:	xdotool type /%s
+#EQUALS		:	xdotool key equal
+#MINUS		:	xdotool type -%s
+MULTIPLY BY	:	xdotool type *%s
+NUMBER		:	sleep 1; xdotool type %s
+#PLUS		:	xdotool type +%s
+SUBTRACT	:	xdotool key minus type %s
+TIMES		:	xdotool type *%s
+
+# ------- VLC
+
+OPEN V L C	:	vlc &
+GO TO V L C	:	wmctrl -a vlc
+QUIT V L C	:	wmctrl -c vlc
+PLAY FASTER	:	xdotool key Alt+l e f
+NORMAL SPEED	:	xdotool key Alt+l e o
+HALF SIZE	:	xdotool key Alt+v z Down Return
+FULL SIZE	:	xdotool key Alt+v z Down Down Return
+OPEN VOLUME CONTROL:	pavucontrol &
+GO TO VOLUME CONTROL:	wmctrl -a "Volume Control"
+
+# ------- Media -- Depends on mpg122 ------ #
+
+LOWER VOLUME	:	xdotool key XF86AudioLowerVolume XF86AudioLowerVolume 
+MUTE SOUND	:	xdotool key XF86AudioMute
+NEXT TRACK	:	xdotool key XF86AudioNext
+PAUSE PLAY	:	xdotool key XF86AudioPlay
+PLAY PAUSE	:	xdotool key XF86AudioPlay
+PREVIOUS TRACK	:	xdotool key XF86AudioPrev XF86AudioPrev 
+RAISE VOLUME	:	xdotool key XF86AudioRaiseVolume XF86AudioRaiseVolume
+RESTART TRACK	:	xdotool key XF86AudioPrev 
+UN MUTE SOUND	:	xdotool key XF86AudioMute
+
+# ------- Games
+
+BACKGAMMON	:	gnubg	&
+CHECKERS	:	python2 /opt/capers/bin/capers	&
+CHESS		:	xboard	&
+PYCHESS		:	pychess	&
+DRAUGHTS	:	python2 /opt/capers/bin/capers	&
+GO		:	quarry	&
+MAELSTROM	:	maelstrom	&
+MASTERMIND	:	gnome-mastermind	&
+PINBALL		:	pinball	&
+REVERSI		:	grhino	&
+SUPERTUXKART	:	supertuxcart	&
+
+# ------- Information
+
+CALENDAR	:	zenity --calendar --title="Merlyn" 2>/dev/null	&
+DATE		:	echo $(date) | $MLN_SPELLS/speak.py 2>/dev/null	&
+TIME		:	echo $(date) | $MLN_SPELLS/speak.py 2>/dev/null	&
+NAME		:	echo "My name is Merlyn." | $MLN_SPELLS/speak.py 2>/dev/null	&
+#WEATHER	:	curl wttr.in/$MLN_LOCATION	&
+
+# ------- Miscellaneous apps
+
+AUDACITY	:	audacity 	&
+OR DA CITY	:	audacity 	&
+GENIE		:	geany	&
+IMAGE EDITOR	:	gimp	&
+IMAGE VIEWER	:	gwenview	&
+EDIT VIDEO	:	openshot	&
+EDIT VIDEO	:	kdenlive	&
+GNU PAINT	:	gpaint &
+PAINT		:	gpaint &
+DRAW		:	gpaint &
+LEAF PAD	:	leafpad	&
+NOTE PAD	:	leafpad	&
+OSCILLOSCOPE	:	xoscope	&
+RECORD MY DESKTOP:	recordmydesktop --width 1920 --height 1080	&
+SCREEN CAST	:	kazam	&
+SETTINGS	:	gnome-control-center	&
+SOFTWARE CENTRE	:	software-center	&
+TERMINAL	:	terminator	&
+VIRTUAL BOX	:	virtualbox	&
+WEB CAM		:	cheese	&

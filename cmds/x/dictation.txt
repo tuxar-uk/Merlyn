@@ -1,0 +1,13 @@
+# some commands adapted from
+# http://paste.jonkulp.net/sicegamupi.tex
+
+CENTER CURSOR	:	center=$(xdpyinfo |grep dimensions | awk -F " " '{ print $2 }' | awk -F "x" '{ print $1/2 " " $2/2 }') && xdotool mousemove $center
+CLOSE DICTATION BOX:	wmctrl -c "Chrome Browser"
+DICTA NOTE	:	wmctrl -a $MLN_BROWSER && xdotool key alt+1 Control+l Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Control+a
+FIX SPACING	:	xdotool key Control+a Control+c && text=$(xclip -o | sed -e 's/ * / /g' | sed -e 's/^ * //') && sleep .1 && $KEYPRESS "$text" 
+GO TO DICTATION BOX:	wmctrl -a "Chrome" && xdotool key Control+r && sleep 1 && xdotool key Tab Tab Return
+OPEN DICTATION BOX:	$MLN_BROWSER --app=https://www.google.com/intl/en/chrome/demos/speech.html --app-window-size=600,500 && sleep 1 && xdotool key Tab Tab Return
+SPEECH RECOGNIZER:	wmctrl -a $MLN_BROWSER && xdotool key alt+1 Control+l Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Shift+Tab Control+a
+STOP TALKING	:	xdotool key Tab && sleep .2 && xdotool key Return
+TRANSFER KEEP	:	xdotool key Control+c && sleep .1 && xdotool key alt+Tab && sleep .1 && xdotool key Control+v
+TRANSFER TEXT	:	xdotool key Control+c && sleep .1 && xdotool key alt+Tab && sleep .1 && text=$(xclip -o | sed -e 's/[Ss]top talking//') && sleep .1 && $KEYPRESS "$text" 

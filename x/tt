@@ -1,0 +1,17 @@
+
+
+address		:	xdotool key ctrl+l
+amazon dot com	:	xdotool type amazon.com
+back		:	xdotool key alt+Left
+bitcoin wisdom	:	xdotool type bitcoinwisdom.com
+ chrome
+close tab	:	xdotool key ctrl+w
+cnn dot com	:	xdotool type cnn.com
+forward		:	xdotool key alt+Right
+google maps	:	xdotool type maps.google.com
+new tab		:	xdotool key ctrl+t
+next tab	:	xdotool key ctrl+Next
+previous tab	:	xdotool key ctrl+Prior
+proggit		:	xdotool type programming.reddit.com
+refresh		:	xdotool key F5
+# websites

@@ -1,0 +1,96 @@
+# ------- Merlyn control
+
+MERLYN		:	echo Yes $MLN_MYNAME | $MLN_SPELLS/speak.py 2> /dev/null	&
+TELL ME ABOUT MERLYN:	mpg321 $MLN_DATA/about.mp3 2> /dev/null	&
+EXIT		:	echo "Shutting down" | $MLN_SPELLS/speak.py 2> /dev/null	&
+HELP		:	zenity --text-info --title="Merlyn help" --width=600 --height=400 --filename=$MLN_DATA/help.txt	&
+KEEP LISTENING	:	echo "Listening" | $MLN_SPELLS/speak.py 2> /dev/null	&
+STOP LISTENING	:	echo "Speak my name for your next command." | $MLN_SPELLS/speak.py 2> /dev/null	&
+SHOW APPS	:	zenity --text-info --title="Merlyn applications commands" --width=600 --height=400 --filename=$MLN_DATA/apps.shw  2>/dev/null &
+SHOW GENERAL	:	zenity --text-info --title="Merlyn general commands" --width=600 --height=400 --filename=$MLN_DATA/general.shw  2>/dev/null &
+SHOW KEYBOARD	:	zenity --text-info --title="Merlyn keyboard commands" --width=600 --height=400 --filename=$MLN_DATA/keyboard.shw  2>/dev/null &
+SHOW WEBSITES	:	zenity --text-info --title="Merlyn websites" --width=600 --height=400 --filename=$MLN_DATA/websites.shw  2>/dev/null &
+
+# ------- Generic Desktop Commands
+
+ALWAYS ON TOP	:	xdotool key alt+space && sleep .2 && xdotool key l t
+CLOSE DIALOG	:	xdotool key alt+c
+NEXT WINDOW	:	xdotool key alt+Tab
+PAGE DOWN	:	xdotool key Page_Down
+PAGE UP		:	xdotool key Page_Up
+PAGE BACK       :       xdotool key alt+Left
+PAGE FORWARD    :       xdotool key alt+Right
+QUIT APPLICATION:	xdotool key Control+q
+SAVE FILE	:	xdotool key Control+s
+
+# ------- General purpose navigation and desktop control commands
+
+METTA F TWO	:	xdotool key alt+F2
+APP LAUNCHER	:	xdotool key alt+F2
+NEXT WORKSPACE	:	xdotool key Control+alt+Right
+PREVIOUS WORKSPACE:	xdotool key Control+alt+Left
+
+# ------- Windows & Menus
+
+DOCUMENT MENU	:	xdotool key alt+d
+EDIT MENU	:	xdotool key alt+e
+FILE MENU	:	xdotool key alt+f
+FORMAT MENU	:	xdotool key alt+o
+HELP MENU	:	xdotool key alt+h
+INSERT MENU	:	xdotool key alt+i
+MAXIMIZE WINDOW	:	xdotool key super+Up # for gnome 3
+TOOLS MENU	:	xdotool key alt+t
+VIEW MENU	:	xdotool key alt+v
+
+# ------- File Manager
+
+FILES		:	$MLN_FM &
+OPEN FILE MANAGER:	$MLN_FM &
+GO TO FILE MANAGER:	wmctrl -a "File Manager"
+QUIT FILE MANAGER:	pkill $MLN_FM
+
+# ------- Main folders
+
+OPEN DESKTOP	:	$MLN_FM ~/Desktop	&
+OPEN DOCUMENTS	:	$MLN_FM ~/Documents	&
+OPEN DOWNLOADS	:	$MLN_FM ~/Downloads	&
+OPEN MERLYN	:	$MLN_FM ~/Merlyn	&
+OPEN MUSIC	:	$MLN_FM ~/Music	&
+OPEN PICTURES	:	$MLN_FM ~/Pictures	&
+OPEN VIDEOS	:	$MLN_FM ~/Videos	&
+
+# ------- Vocabulary only, no spells
+
+zero:
+one:
+two:
+three:
+four:
+five:
+six:
+seven:
+eight:
+nine:
+ten:
+eleven:
+twelve:
+thirteen:
+fourteen:
+fifteen:
+sixteen:
+seventeen:
+eighteen:
+nineteen:
+twenty:
+thirty:
+forty:
+fifty:
+sixty:
+seventy:
+eighty:
+ninety:
+thousand:
+million:
+billion:
+trillion:
+hundred:

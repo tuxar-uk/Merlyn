@@ -1,0 +1,2 @@
+#MAXIMIZE WINDOW:	xdotool key alt+space && sleep .1 && xdotool key x
+MAXIMIZE WINDOW:	xdotool key super+Up # for gnome 3

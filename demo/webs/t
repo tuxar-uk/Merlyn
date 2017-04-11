@@ -1,0 +1,15 @@
+mpg123 ailinux.mp3	;	sleep 8
+mpg123 close_tab.mp3	;	sleep 8
+mpg123 facebook.mp3	;	sleep 8
+mpg123 netflix.mp3	;	sleep 8
+mpg123 twitter.mp3	;	sleep 8
+mpg123 wikipedia.mp3	;	sleep 8
+mpg123 page_down.mp3	;	sleep 8
+mpg123 page_up.mp3	;	sleep 8
+close tab
+close tab
+close tab
+close tab
+close tab
+close tab
+close tab

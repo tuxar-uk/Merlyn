@@ -1,0 +1,19 @@
+Say 'Merlyn' to make him/her listen.
+Merlyn will obey the next command. If that is 'keep listening' then
+Merlyn will continue to obey commands until you say 'stop listening'.
+
+Commands are grouped into the following:
+
+	General		:	further subdivided into smaller groups
+	Keyboard & mouse:	keys that Merlyn can press for you, and mouse movements
+	Browsers & websites:	Controls for Google Chrome and Firefox, and some websites
+	Editing		:	Vi commands
+
+View them by saying 'show general', 'show keyboard', 'show browsers', 'show editing'.
+Go further down or back up with 'page down' or 'page up'.
+
+If Merlyn hears words you didn't say, your microphone may be picking
+up background noise, or hearing what it has just spoken itself.
+In the first case, try adjusting the microphone sensitivity or 
+placing it closer to your mouth. In the second case, try turning down 
+your speaker volume or using headphones.

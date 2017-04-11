@@ -1,0 +1,13 @@
+
+MOUSE:
+click and hold,	left button down,	left button up,	click here,	mouse click,	double click,	middle click,	mouse location,	mouse left,	mouse west,	mouse origin,	mouse right,	mouse east,	mouse up,	mouse north,	mouse down,	mouse south,	right click,	place window,	window down,	window south,	window left,	window west,	window origin,	window right,	window east,	window up,	window north,	
+NUMBERS:
+number zero,	number one,	number two,	number three,	number four,	number five,	number six,	number seven,	number eight,	number nine,	
+ALPHABET:
+letter a,	letter b,	letter c,	letter d,	letter e,	letter f,	letter g,	letter h,	letter i,	letter j,	letter k,	letter l,	letter m,	letter n,	letter o,	letter p,	letter q,	letter r,	letter s,	letter t,	letter u,	letter v,	letter w,	letter x,	letter y,	letter z,	capital a,	capital b,	capital c,	capital d,	capital e,	capital f,	capital g,	capital h,	capital i,	capital j,	capital k,	capital l,	capital m,	capital n,	capital o,	capital p,	capital q,	capital r,	capital s,	capital t,	capital u,	capital v,	capital w,	capital x,	capital y,	capital z,	
+FUNCTION KEYS:
+eff one,	eff two,	eff three,	eff four,	eff five,	eff six,	eff seven,	eff eight,	eff nine,	eff ten,	eff eleven,	eff twelve,	
+OTHER KEYSTROKES:
+backspace,	cancel,	colon,	comma,	control a,	control b,	control c,	control d,	control e,	control f,	control g,	control h,	control i,	control j,	control k,	control l,	control m,	control n,	control o,	control p,	control q,	control r,	control s,	control t,	control u,	control v,	control w,	control x,	control y,	control z,	control shift c,	control shift e,	control shift n,	control shift o,	control shift v,	control shift w,	delete,	end line,	enter,	equals,	escape,	home,	minus,	period,	pipe,	plus,	press delete,	press end,	press enter,	press escape,	press home,	press tab,	question mark,	restore window,	semicolon,	space bar,	space,	star,	super key,	switch back,	tab,	tilde,	
+ARROW KEYS:
+go down,	go left,	go right,	go up,	down arrow,	left arrow,	right arrow,	up arrow,	

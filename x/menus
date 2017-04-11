@@ -1,0 +1,8 @@
+DOCUMENT MENU	:	xdotool key alt+d
+FILE MENU	:	xdotool key alt+f
+EDIT MENU	:	xdotool key alt+e
+FORMAT MENU	:	xdotool key alt+o
+HELP MENU	:	xdotool key alt+h
+INSERT MENU	:	xdotool key alt+i
+#MAXIMIZE WINDOW:	xdotool key alt+space && sleep .1 && xdotool key x
+MAXIMIZE WINDOW	:	xdotool key super+Up # for gnome 3

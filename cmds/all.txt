@@ -1,0 +1,386 @@
+address field:xdotool key Ctrl+l
+address:xdotool key Ctrl+l
+close tab:xdotool key Ctrl+w
+close window:xdotool key Ctrl+w
+dot com:xdotool type .com
+dot co uck:xdotool type .co.uk
+dot net:xdotool type .net
+dot org:xdotool type .org
+find on page:xdotool key Ctrl+f
+firefox preferences:xdotool key alt+e n
+full screen:xdotool key F11
+go back:xdotool key alt+Left
+go forward:xdotool key alt+Right
+go to browser:wmctrl -a google chrome
+go to firefox:wmctrl -a firefox
+new file:xdotool key Ctrl+n
+new tab:xdotool key Ctrl+t
+new window:xdotool key Ctrl+n
+next tab:xdotool key Ctrl+Page_Down
+open browser:google-chrome &
+open firefox:firefox &
+open google chrome:google-chrome &
+previous tab:xdotool key Ctrl+Page_Up
+quit browser:wmctrl -c google chrome
+quit firefox:wmctrl -c firefox
+refresh page:xdotool key Ctrl+r
+restore tab:xdotool key Ctrl+Shift+t
+search field:xdotool key Ctrl+f
+tab eight:xdotool key alt+8
+tab five:xdotool key alt+5
+tab four:xdotool key alt+4
+tab nine:xdotool key alt+9
+tab one:xdotool key alt+1
+tab seven:xdotool key alt+7
+tab six:xdotool key alt+6
+tab three:xdotool key alt+3
+tab two:xdotool key alt+2
+music:rhythmbox-client
+music next:rhythmbox-client --next
+music pause:rhythmbox-client --pause
+music play:rhythmbox-client --play
+music prev:rhythmbox-client --previous
+music show:rhythmbox-client --notify
+music silence:rhythmbox-client --pause
+open rhythmbox:rhythmbox &
+go to rhythmbox:rid=$(pgrep rhythmbox) && rwinname=$(wmctrl -lp |grep $rid |sed -e "s/.*$rid * //" | sed -e "s/$(hostname) //") && wmctrl -a $rwinname
+quit rhythmbox:rid=$(pgrep rhythmbox) && rwinname=$(wmctrl -lp |grep $rid |sed -e "s/.*$rid * //" | sed -e "s/$(hostname) //") && wmctrl -c $rwinname
+search music:xvkbd -no-jump-pointer -secure -text '\As'
+calculator:gnome-calculator &
+quit calculator:wmctrl -c gnome-calculator
+add:xdotool type +%s
+divide by:xdotool type /%s
+multiply by:xdotool type *%s
+number:sleep 1; xdotool type %s
+subtract:xdotool key minus type %s
+times:xdotool type *%s
+open v l c:vlc &
+go to v l c:wmctrl -a vlc
+quit v l c:wmctrl -c vlc
+play faster:xdotool key Alt+l e f
+normal speed:xdotool key Alt+l e o
+half size:xdotool key Alt+v z Down Return
+full size:xdotool key Alt+v z Down Down Return
+open volume control:pavucontrol &
+go to volume control:wmctrl -a "Volume Control"
+lower volume:xdotool key XF86AudioLowerVolume XF86AudioLowerVolume
+mute sound:xdotool key XF86AudioMute
+next track:xdotool key XF86AudioNext
+pause play:xdotool key XF86AudioPlay
+play pause:xdotool key XF86AudioPlay
+previous track:xdotool key XF86AudioPrev XF86AudioPrev
+raise volume:xdotool key XF86AudioRaiseVolume XF86AudioRaiseVolume
+restart track:xdotool key XF86AudioPrev
+un mute sound:xdotool key XF86AudioMute
+backgammon:gnubg	&
+checkers:python2 /opt/capers/bin/capers	&
+chess:xboard	&
+pychess:pychess	&
+draughts:python2 /opt/capers/bin/capers	&
+go:quarry	&
+maelstrom:maelstrom	&
+mastermind:gnome-mastermind	&
+pinball:pinball	&
+reversi:grhino	&
+supertuxkart:supertuxcart	&
+calendar:zenity --calendar --title="Merlyn" 2>/dev/null	&
+date:echo $(date) | $MLN_SPELLS/speak.py 2>/dev/null	&
+time:echo $(date) | $MLN_SPELLS/speak.py 2>/dev/null	&
+name:echo "My name is Merlyn." | $MLN_SPELLS/speak.py 2>/dev/null	&
+audacity:audacity 	&
+or da city:audacity 	&
+genie:geany	&
+image editor:gimp	&
+image viewer:gwenview	&
+edit video:openshot	&
+gnu paint:gpaint &
+paint:gpaint &
+draw:gpaint &
+leaf pad:leafpad	&
+note pad:leafpad	&
+oscilloscope:xoscope	&
+record my desktop:recordmydesktop --width 1920 --height 1080	&
+screen cast:kazam	&
+settings:gnome-control-center	&
+software centre:software-center	&
+terminal:terminator	&
+virtual box:virtualbox	&
+web cam:cheese	&
+merlyn:echo Yes $MLN_MYNAME | $MLN_SPELLS/speak.py 2> /dev/null	&
+tell me about merlyn:mpg321 $MLN_DATA/about.mp3 2> /dev/null	&
+exit:echo "Shutting down" | $MLN_SPELLS/speak.py 2> /dev/null	&
+help:zenity --text-info --title="Merlyn help" --width=600 --height=400 --filename=$MLN_DATA/help.txt	&
+keep listening:echo "Listening" | $MLN_SPELLS/speak.py 2> /dev/null	&
+stop listening:echo "Speak my name for your next command." | $MLN_SPELLS/speak.py 2> /dev/null	&
+show browsers:zenity --text-info --title="Merlyn browser commands" --width=600 --height=400 --filename=$MLN_DATA/browsers.shw  2>/dev/null &
+show general:zenity --text-info --title="Merlyn general commands" --width=600 --height=400 --filename=$MLN_DATA/general.shw  2>/dev/null &
+show keyboard:zenity --text-info --title="Merlyn keyboard commands" --width=600 --height=400 --filename=$MLN_DATA/keyboard.shw  2>/dev/null &
+show websites:zenity --text-info --title="Merlyn websites" --width=600 --height=400 --filename=$MLN_DATA/websites.shw  2>/dev/null &
+always on top:xdotool key alt+space && sleep .2 && xdotool key l t
+close dialog:xdotool key alt+c
+next window:xdotool key alt+Tab
+page down:xdotool key Page_Down
+page up:xdotool key Page_Up
+page back:xdotool key alt+Left
+page forward:xdotool key alt+Right
+quit application:xdotool key Control+q
+save file:xdotool key Control+s
+metta f two:xdotool key alt+F2
+app launcher:xdotool key alt+F2
+next workspace:xdotool key Control+alt+Right
+previous workspace:xdotool key Control+alt+Left
+document menu:xdotool key alt+d
+edit menu:xdotool key alt+e
+file menu:xdotool key alt+f
+format menu:xdotool key alt+o
+help menu:xdotool key alt+h
+insert menu:xdotool key alt+i
+maximize window:xdotool key super+Up # for gnome 3
+tools menu:xdotool key alt+t
+view menu:xdotool key alt+v
+files:$MLN_FM &
+open file manager:$MLN_FM &
+go to file manager:wmctrl -a "File Manager"
+quit file manager:pkill $MLN_FM
+open desktop:$MLN_FM ~/Desktop	&
+open documents:$MLN_FM ~/Documents	&
+open downloads:$MLN_FM ~/Downloads	&
+open merlyn:$MLN_FM ~/Merlyn	&
+open music:$MLN_FM ~/Music	&
+open pictures:$MLN_FM ~/Pictures	&
+open videos:$MLN_FM ~/Videos	&
+click and hold:xdotool mousedown 1
+left button down:xdotool mousedown 1
+left button up:xdotool mouseup 1
+click here:xdotool click 1
+mouse click:xdotool click 1
+double click:xdotool click 1 ; xdotool click 1
+middle click:xdotool key Ctrl+shift+v
+mouse location:coords=$(xdotool getmouselocation | sed -e 's/screen.*$//') && xmessage $coords
+mouse left:xdotool mousemove_relative -- -%s 0
+mouse west:xdotool mousemove_relative -- -%s 0
+mouse origin:xdotool mousemove 0 0
+mouse right:xdotool mousemove_relative  %s 0
+mouse east:xdotool mousemove_relative  %s 0
+mouse up:xdotool mousemove_relative -- 0 -%s
+mouse north:xdotool mousemove_relative -- 0 -%s
+mouse down:xdotool mousemove_relative 0 %s
+mouse south:xdotool mousemove_relative 0 %s
+right click:xdotool click 3
+place window:xdotool getactivewindow windowmove 600 300 mousemove 800 550
+window down:xdotool getactivewindow windowmove --relative 0 %s
+window south:xdotool getactivewindow windowmove --relative 0 %s
+window left:xdotool getactivewindow windowmove --relative -%s 0
+window west:xdotool getactivewindow windowmove --relative -%s 0
+window origin:xdotool getactivewindow windowmove 0 0
+window right:xdotool getactivewindow windowmove --relative %s 0
+window east:xdotool getactivewindow windowmove --relative %s 0
+window up:xdotool getactivewindow windowmove --relative 0 -%s
+window north:xdotool getactivewindow windowmove --relative 0 -%s
+number zero:xdotool key 0
+number one:xdotool key 1
+number two:xdotool key 2
+number three:xdotool key 3
+number four:xdotool key 4
+number five:xdotool key 5
+number six:xdotool key 6
+number seven:xdotool key 7
+number eight:xdotool key 8
+number nine:xdotool key 9
+letter a:xdotool type a
+letter b:xdotool type b
+letter c:xdotool type c
+letter d:xdotool type d
+letter e:xdotool type e
+letter f:xdotool type f
+letter g:xdotool type g
+letter h:xdotool type h
+letter i:xdotool type i
+letter j:xdotool type j
+letter k:xdotool type k
+letter l:xdotool type l
+letter m:xdotool type m
+letter n:xdotool type n
+letter o:xdotool type o
+letter p:xdotool type p
+letter q:xdotool type q
+letter r:xdotool type r
+letter s:xdotool type s
+letter t:xdotool type t
+letter u:xdotool type u
+letter v:xdotool type v
+letter w:xdotool type w
+letter x:xdotool type x
+letter y:xdotool type y
+letter z:xdotool type z
+capital a:xdotool type A
+capital b:xdotool type B
+capital c:xdotool type C
+capital d:xdotool type D
+capital e:xdotool type E
+capital f:xdotool type F
+capital g:xdotool type G
+capital h:xdotool type H
+capital i:xdotool type I
+capital j:xdotool type J
+capital k:xdotool type K
+capital l:xdotool type L
+capital m:xdotool type M
+capital n:xdotool type N
+capital o:xdotool type O
+capital p:xdotool type P
+capital q:xdotool type Q
+capital r:xdotool type R
+capital s:xdotool type S
+capital t:xdotool type T
+capital u:xdotool type U
+capital v:xdotool type V
+capital w:xdotool type W
+capital x:xdotool type X
+capital y:xdotool type Y
+capital z:xdotool type Z
+eff one:xdotool key F1
+eff two:xdotool key F2
+eff three:xdotool key F3
+eff four:xdotool key F4
+eff five:xdotool key F5
+eff six:xdotool key F6
+eff seven:xdotool key F7
+eff eight:xdotool key F8
+eff nine:xdotool key F9
+eff ten:xdotool key F10
+eff eleven:xdotool key F11
+eff twelve:xdotool key F12
+backspace:xdotool key BackSpace
+cancel:xdotool key Escape
+colon:xdotool key colon
+comma:xdotool key comma
+control a:xdotool key Ctrl+a
+control b:xdotool key Ctrl+b
+control c:xdotool key Ctrl+c
+control d:xdotool key Ctrl+d
+control e:xdotool key Ctrl+e
+control f:xdotool key Ctrl+f
+control g:xdotool key Ctrl+g
+control h:xdotool key Ctrl+h
+control i:xdotool key Ctrl+i
+control j:xdotool key Ctrl+j
+control k:xdotool key Ctrl+k
+control l:xdotool key Ctrl+l
+control m:xdotool key Ctrl+m
+control n:xdotool key Ctrl+n
+control o:xdotool key Ctrl+o
+control p:xdotool key Ctrl+p
+control q:xdotool key Ctrl+q
+control r:xdotool key Ctrl+r
+control s:xdotool key Ctrl+s
+control t:xdotool key Ctrl+t
+control u:xdotool key Ctrl+u
+control v:xdotool key Ctrl+v
+control w:xdotool key Ctrl+w
+control x:xdotool key Ctrl+x
+control y:xdotool key Ctrl+y
+control z:xdotool key Ctrl+z
+control shift c:xdotool key Ctrl+C
+control shift e:xdotool key Ctrl+E
+control shift n:xdotool key Ctrl+N
+control shift o:xdotool key Ctrl+O
+control shift v:xdotool key Ctrl+V
+control shift w:xdotool key Ctrl+W
+delete:xdotool key Delete
+end line:xdotool key End
+enter:xdotool key Return
+equals:xdotool key equal
+escape:xdotool key Escape
+home:xdotool key Home
+minus:xdotool key minus
+period:xdotool key period
+pipe:xdotool key bar
+plus:xdotool key plus
+press delete:xdotool key Delete
+press end:xdotool key End
+press enter:xdotool key Return
+press escape:xdotool key Escape
+press home:xdotool key Home
+press tab:xdotool key Tab
+question mark:xdotool key question
+restore window:xdotool key alt+space && sleep .1 && xdotool key e
+semicolon:xdotool key semicolon
+space bar:xdotool key space
+space:xdotool key space
+star:xdotool key asterisk
+super key:xdotool key super
+switch back:xdotool key alt+Tab
+tab:xdotool key Tab
+tilde:xdotool key tilde
+go down:xdotool key Down
+go left:xdotool key Left
+go right:xdotool key Right
+go up:xdotool key Up
+down arrow:xdotool key Down
+left arrow:xdotool key Left
+right arrow:xdotool key Right
+up arrow:xdotool key Up
+ai linux:$MLN_BROWSER http://ailinux.net/
+amazon:$MLN_BROWSER http://amazon.co.uk/
+dictation:$MLN_BROWSER https://dictation.io/
+ebay:$MLN_BROWSER https://ebay.co.uk/
+facebook:$MLN_BROWSER http://facebook.com/
+fractal art gallery:$MLN_BROWSER http://fractalart.gallery/
+google:$MLN_BROWSER https://google.co.uk/
+google mail:$MLN_BROWSER https://mail.google.com/mail/u/0/#inbox
+google news:$MLN_BROWSER https://news.google.co.uk/
+here be dragons:$MLN_BROWSER http://herebedragons.wales/
+linkedin:$MLN_BROWSER http://linkedin.com/
+map:$MLN_BROWSER https://google.co.uk/maps/place/
+netflix:$MLN_BROWSER http://netflix.com/
+python 3 codes:$MLN_BROWSER http://python3.codes/
+reddit:$MLN_BROWSER https://www.reddit.com/
+search:$MLN_BROWSER https://www.google.co.uk/
+sphinx tool:$MLN_BROWSER http://www.speech.cs.cmu.edu/tools/lmtool-new.html
+twitter:$MLN_BROWSER https://twitter.com/
+weather:$MLN_BROWSER https://www.google.co.uk/search?q=weather
+wikipedia:$MLN_BROWSER https://en.wikipedia.org/wiki/Main_Page
+x do tools:$MLN_BROWSER http://www.semicomplete.com/projects/xdotool/xdotool.xhtml
+youtube:$MLN_BROWSER https://www.youtube.com/
+tuxar:$MLN_BROWSER http://tuxar.uk/
+amazon alan parsons:$MLN_BROWSER https://music.amazon.co.uk/my/playlists/Alan+Parsons/bab80367-6a27-4160-a4c1-4b00ae88a65f
+spotify alan parsons:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/2m62cc253Xvd9qYQ8d2X3d
+youtube alan parsons:$MLN_BROWSER https://www.youtube.com/watch?v=tW2e4tpOBGA&list=PL2SSSOyEwLzvEVEEqInMvVEtsO2YGQS2a
+amazon beatles:$MLN_BROWSER https://music.amazon.co.uk/playlists/B019P2DVNQ
+spotify beatles:$MLN_BROWSER https://play.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2
+youtube beatles:$MLN_BROWSER https://www.youtube.com/watch?v=NCtzkaL2t_Y&list=RDEMDwfWqCd9jXCuVO7pjkJHTw
+amazon deep purple:$MLN_BROWSER https://music.amazon.co.uk/my/playlists/Deep+Purple/5242f84d-2490-4eba-aa1a-e291e7123a90`
+spotify deep purple:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/568ZhdwyaiCyOGJRtNYhWf
+youtube deep purple:$MLN_BROWSER https://www.youtube.com/watch?v=zUwEIt9ez7M&list=RDEMrL1dIgMZ7IJ3KbJOBAuAmA
+amazon emerson lake and palmer:$MLN_BROWSER https://music.amazon.co.uk/my/playlists/ELP/3db6c437-8577-4a22-898d-8af468c59ae1
+spotify emerson lake and palmer:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0nCiidE5GgDrc5kWN3NZgZ
+youtube emerson lake and palmer:$MLN_BROWSER https://www.youtube.com/watch?v=_8VHHcd0M_o&list=RDEMV-89hDva-9BsS2UV_r6PHQ
+amazon evanescence:$MLN_BROWSER https://music.amazon.co.uk/artists/B001E71R5A/
+spotify evanescence:$MLN_BROWSER https://play.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c
+youtube evanescence:$MLN_BROWSER https://www.youtube.com/watch?v=5anLPw0Efmo&list=RDEM91LqLUokd9H6aB3qnl1JYw
+amazon moody blues:$MLN_BROWSER https://music.amazon.co.uk/stations/AZBST3CMQZCH8
+spotify moody blues:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/5BcZ22XONcRoLhTbZRuME1
+youtube moody blues:$MLN_BROWSER https://www.youtube.com/watch?v=IAjGdmFKf8E&list=PLqZjG2CJnxpRFmIh2kbJGwzbNJLZtkaFp
+youtube my music:$MLN_BROWSER https://www.youtube.com/watch?v=ViIx5uagasY&list=PL-MQ2wS-IPhApRRjqilUit2xBXfH0Li8y
+amazon ozric tentacles:$MLN_BROWSER https://music.amazon.co.uk/artists/B001FJJFBA
+spotify ozric tentacles:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0Iv00ucAIqr5KVS7bXGFa9
+youtube ozric tentacles:$MLN_BROWSER https://www.youtube.com/watch?v=UXAaDqPl7oY&list=RDEMCx7Sk4N4iJqirwFyMoyj1A
+amazon pink floyd:$MLN_BROWSER https://music.amazon.co.uk/stations/A2WNNS1FJEGRHM
+spotify pink floyd:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0k17h0D3J5VfsdmQ1iZtE9
+youtube pink floyd:$MLN_BROWSER https://www.youtube.com/watch?v=YR5ApYxkU-U&list=RDEMMuNo_ya96ky4y2AzB2-mHg
+amazon prog rock:$MLN_BROWSER https://music.amazon.co.uk/stations/A1S0RQA64N5XSB
+spotify prog rock:$MLN_BROWSER https://play.spotify.com/user/spotify/playlist/1F4zfIjhDWRDZ44kEL85jf
+youtube prog rock:$MLN_BROWSER https://www.youtube.com/watch?v=Kucx955q8mU&list=PLHsIbhFqaHEIaO5IzHWqv34WFLhcFXC9q
+amazon rare bird:$MLN_BROWSER https://music.amazon.co.uk/artists/B001EM8FDC
+spotify rare bird:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/0E0Yi0mxPBvSIwET5oLlrT
+youtube rare bird:$MLN_BROWSER https://www.youtube.com/watch?v=2TMw92_q8Ac&list=RDEM4Cu15dy94__rEWnUrpr4Jg
+amazon tangerine dream:$MLN_BROWSER https://music.amazon.co.uk/artists/B001E32S98
+spotify tangerine dream:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/1BGN1IdyiSR0ZYrkoKNchl
+youtube tangerine dream:$MLN_BROWSER https://www.youtube.com/watch?v=2w8VsvJ40sM&list=RDEMflsAy-eLxQ2-oszlwebZ4g
+amazon war of the worlds:$MLN_BROWSER https://music.amazon.co.uk/artists/B001F9IPDY?ref=dm_sh_09df-8ecb-dmcp-31c2-2f73f
+spotify war of the worlds:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/5bpiFjU6CnEErF1C8gBqvG
+youtube war of the worlds:$MLN_BROWSER https://www.youtube.com/watch?v=ZQth5ezjWpM
+amazon yes:$MLN_BROWSER https://music.amazon.co.uk/stations/A265Q4RTMLPCD9
+spotify yes:$MLN_BROWSER https://play.spotify.com/user/kosmoi/collection/artist/7AC976RDJzL2asmZuz7qil
+youtube yes:$MLN_BROWSER https://www.youtube.com/watch?v=-Tdu4uKSZ3M&list=RDEMr-7pJyIFzDRGhGCcfDkvPQ

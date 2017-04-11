@@ -1,0 +1,58 @@
+# some commands adapted from
+# http://paste.jonkulp.net/sicegamupi.tex
+
+SELECT ALL	:	xdotool key Control+a
+SELECT THIS WORD:	xdotool key Control+Left Control+Shift+Right
+SELECT THIS SENTENCE:	xdotool key Control+Shift+Delete Control+z
+#ANGLE BRACKET THIS:	xdotool key Control+c && xdotool type '<'"$(xclip -o)"'>'
+#CAMEL CAPS THIS	:	xdotool key Control+c && xclip -o | sed -r 's/\<./\U&/g' | sed -e 's/ //g'| xclip -i && xdotool type "$(xclip -o)" 
+#CAPITALIZE THIS	:	xdotool key Control+c && xclip -o | sed -r 's/\<./\U&/g' | xclip -i && xdotool type "$(xclip -o)" 
+COPY		:	xdotool key Control+c
+CUT		:	xdotool key Control+x
+#DELETE PREVIOUS SENTENCE:	xdotool key Control+Shift+BackSpace
+#DELETE THIS SENTENCE:	xdotool key Control+Shift+Delete
+#FROWNEY FACE	:	xdotool type ":("
+#GRAB THAT	:	xdotool key Control+a Control+c
+HYPHENATE THIS	:	xdotool key Control+c && xclip -o | sed -e 's/ /-/g' | xclip -i && xdotool type "$(xclip -o)" 
+MAKE LOWERCASE	:	xdotool key Control+c && xclip -o | sed 's/\(.*\)/\L\1/' | xclip -i && xdotool type "$(xclip -o)"
+MAKE UPPERCASE	:	xdotool key Control+c && xclip -o | sed 's/\(.*\)/\U\1/' | xclip -i && xdotool type "$(xclip -o)"
+NEXT WORD	:	xdotool key Control+Right
+#OPTIMAL COLUMN WIDTH:	xdotool key alt+o m o Return
+PASTE		:	xdotool key Control+v
+PARENTHESIZE THIS:	xdotool key Control+c && xdotool type '('"$(xclip -o)"')'
+PREVIOUS WORD	:	xdotool key Control+Left
+QUOTE THIS	:	xdotool key Control+c && xdotool type '"' && xdotool key Control+v && xdotool type '"'
+REMOVE SPACES	:	xdotool key Control+c && xclip -o | sed -e 's/ //g' | xclip -i && xdotool type "$(xclip -o)"
+SELECT PREVIOUS SENTENCE:	xdotool key Control+Shift+BackSpace && xdotool key Control+z
+SMART QUOTES	:	xdotool key Control+c && xdotool type '&#8220;' && xdotool key Control+v && xdotool type '&#8221;'
+SMILEY FACE	:	xdotool type ":)"
+# AWESOMENESS COMING NEXT
+SORT THIS	:	xdotool key Control+c && xclip -o > /tmp/unsorted.txt && sort /tmp/unsorted.txt > /tmp/sorted.txt && xvkbd -xsendevent -secure -file /tmp/sorted.txt 
+#SPACES TO UNDERSCORES:	xdotool key Control+c && xclip -o | sed -e 's/ /_/g' | xclip -i && xdotool type "$(xclip -o)" 
+UNDO		:	xdotool key Control+z
+#X D O TOOL KEY	:	xdotool type "xdotool key "
+
+# ------- Vim
+
+APPEND TO CURRENT LINE:	xdotool type "A" 
+CHANGE WORD	:	xdotool type "cw"
+COLON DOLLAR SIGN:	xdotool type ":$\r"
+COLON W		:	xdotool type ":w\r"
+COLON ZERO	:	xdotool type ":0\r"
+DELETE LINES	:	xdotool type "dd"
+DELETE WORD	:	xdotool type "dw"
+MARK ZEE	:	xdotool type 'mz'
+DELETE ZEE	:	xdotool type "d'z"
+NEW LINE ABOVE	:	xdotool type "O"
+NEW LINE BELOW	:	xdotool type "o"
+NEXT BUFFER	:	xdotool key ctrl+w j
+INSERT		:	xdotool type "i"
+PREVIOUS BUFFER	:	xdotool key ctrl+w k
+PUT AFTER	:	xdotool type "p"
+PUT BEFORE	:	xdotool type "P"
+SPLIT BUFFER	:	xdotool type ":sp "
+WRITE AND QUIT	:	xdotool type ":wq\r"
+YANK LINES	:	xdotool type "yy"
+YANK TO THE END	:	xdotool type "y$"
+YANK WORD	:	xdotool type "yw"
+ZEE OUT		:	xdotool type "ZZ"
