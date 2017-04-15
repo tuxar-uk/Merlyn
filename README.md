@@ -25,10 +25,17 @@ The subdirectories are:
  * spells  :       scripts for Merlyn's wizardry
  * x       :       not important, just stuff that might one day be useful. or not.
 
-## Adding & Editing Commands
+## Adding and Editing Commands
+Look at the `*.txt` files in the `cmds` subdirectory.
+Edit those or add your own. If you want to start a new `.txt` file be sure to add it to `files.list`.
+Run the `lmtool.py` file to generate `corpus.txt` then go to the indicated URL, click on `choose file`.
+Click on `Compile knowledge base`.
+Download the generated tar file, e.g. copy the link and give it to `wget` inside the `lang` dir.
+`tar xvzf` the tar file.
+Note the 4-digit number in its name, and edit `Merlyn.py` to replace the old number.
 
-Look at the `*.txt` files in the `cmds` subdirectory. Edit those or add your own. If you want to start a new `.txt` file be sure to add it to `files.list`. Run the `lmtool.py` file to generate `corpus.txt` then go to the indicated URL, click on `choose file`. Click on `Compile knowledge base`. Download the generated tar file, e.g. copy the link and give it to `wget` inside the `lang` dir. `tar xvzf` the tar file. Note the 4-digit number in its name, and edit `Merlyn.py` to replace the old number.
----
+
+***
 If you have problems, or suggestions for improvement, please visit http://AILinux.net/Merlyn or send email to merlyn at tuxar dot uk
 
 *DISCLAIMER:* This is an alpha release, i.e. just proof-of-concept. If I don't get positive feedback about it there might not be a beta realease. And if I do, there may be changes that are incompatible with the previous version. And you use [Merlyn](http://ailinux.net/Merlyn) at your own risk.
