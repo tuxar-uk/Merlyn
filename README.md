@@ -38,4 +38,4 @@ Note the 4-digit number in its name, and edit `Merlyn.py` to replace the old num
 ***
 If you have problems, or suggestions for improvement, please visit http://AILinux.net/Merlyn or send email to merlyn at tuxar dot uk
 
-*DISCLAIMER:* This is an alpha release, i.e. just proof-of-concept. If I don't get positive feedback about it there might not be a beta realease. And if I do, there may be changes that are incompatible with the previous version. And you use [Merlyn](http://ailinux.net/Merlyn) at your own risk.
+*DISCLAIMER:* This is an alpha release, i.e. just proof-of-concept. If I don't get positive feedback about it there might not be a beta release. And if I do, there may be changes that are incompatible with the previous version. And you use [Merlyn](http://ailinux.net/Merlyn) at your own risk.
